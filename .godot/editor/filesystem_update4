@@ -1,6 +1,5 @@
 res://John_Spelunk_Stuff/john_spelunk.tscn
 res://parties/enemy_party.tscn
-<<<<<<< Updated upstream
 res://enemy_party.gd
 res://player_party.gd
 res://John_Spelunk_Stuff/john_spelunk_move.gd
@@ -10,5 +9,3 @@ res://chara/baddragon.tscn
 res://chara/battlecatsguythatIhate.tscn
 res://chara/dragonman.tscn
 res://chara/lizardman.tscn
-=======
->>>>>>> Stashed changes
