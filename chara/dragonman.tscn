@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bteabg8b1ptda"]
+[gd_scene format=3 uid="uid://bteabg8b1ptda"]
 
 [ext_resource type="Script" uid="uid://crq6b7b7p75gc" path="res://Character.gd" id="1_lllq6"]
 [ext_resource type="Resource" uid="uid://cdqtl8noyx0y7" path="res://Combat Actions/Swing.tres" id="2_3tya3"]

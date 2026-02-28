@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bbb8y2p54k7yt"]
+[gd_scene format=3 uid="uid://bbb8y2p54k7yt"]
 
 [ext_resource type="Script" uid="uid://crq6b7b7p75gc" path="res://Character.gd" id="1_0kwol"]
 [ext_resource type="Texture2D" uid="uid://opm3uffnxwul" path="res://assets/Reptile.png" id="2_5macf"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bww0hpybbohm1"]
+[gd_scene format=3 uid="uid://bww0hpybbohm1"]
 
 [ext_resource type="Script" uid="uid://crq6b7b7p75gc" path="res://Character.gd" id="1_y5vj6"]
 [ext_resource type="Texture2D" uid="uid://q418gaqcrcmq" path="res://assets/RedDragon.png" id="2_1mo56"]
