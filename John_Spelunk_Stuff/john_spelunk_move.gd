@@ -32,7 +32,7 @@ func _physics_process(delta: float) -> void:
 
 	if Input.is_action_just_pressed("moveLeft"):
 		scale.x = -1
-	elif Input.is_action_just_pressed("moveRight"):
+	if Input.is_action_just_pressed("moveRight"):
 		scale.x = 1
 	
 	# Get the input direction and handle the movement/deceleration.

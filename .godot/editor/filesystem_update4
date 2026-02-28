@@ -1,2 +1,3 @@
-res://battle_scene.gd
-res://Levels/l_1.gd
+res://Levels/l_1.tscn
+res://John_Spelunk_Stuff/john_spelunk.tscn
+res://John_Spelunk_Stuff/john_spelunk_move.gd
