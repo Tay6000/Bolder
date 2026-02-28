@@ -1,5 +1,6 @@
 extends Node2D
 
+@onready var level1 = preload("res://Levels/l_1.tscn")
 @onready var player_party = preload("res://parties/player_party.tscn").instantiate()
 @onready var enemy_party = preload("res://parties/enemy_party.tscn").instantiate()
 @export var player_char : Character # may need to be changed to allow for multiple party members in the future
@@ -99,3 +100,10 @@ func _process(delta: float) -> void:
 		else:
 			focus_count = (focus_count)-1
 			pick_target(focus_count)
+	
+	if fight_over:
+		_add_scene_manually()
+		get_node("/root/BattleScene").queue_free()
+
+func _add_scene_manually():
+	get_tree().root.add_child(level1.instantiate())

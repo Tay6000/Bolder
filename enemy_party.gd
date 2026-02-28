@@ -11,7 +11,8 @@ var encounter = [1, 0]
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	_load_party(encounter)
+	slime.is_player = false
+	_add_chara(slime)
 	enemies = get_children()
 	for i in enemies.size():
 		enemies[i].position = Vector2(0, i*180)

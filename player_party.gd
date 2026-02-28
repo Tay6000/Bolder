@@ -9,7 +9,8 @@ var encounter = [1, 0]
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	_load_party(encounter)
+	john.is_player = true
+	_add_chara(john)
 	players = get_children()
 	for i in players.size():
 		players[i].position = Vector2(0, i*180)

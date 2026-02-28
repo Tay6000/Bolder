@@ -2,9 +2,20 @@
 
 [ext_resource type="Script" uid="uid://crq6b7b7p75gc" path="res://Character.gd" id="1_0kwol"]
 [ext_resource type="Texture2D" uid="uid://opm3uffnxwul" path="res://assets/Reptile.png" id="2_5macf"]
-[ext_resource type="Resource" uid="uid://cdqtl8noyx0y7" path="res://Combat Actions/Swing.tres" id="2_y3j8d"]
-[ext_resource type="Resource" uid="uid://cl0ant4fxv7" path="res://Combat Actions/baseHeal.tres" id="3_0jttm"]
+[ext_resource type="Script" uid="uid://bbi4b0lckjlf8" path="res://CombatAction.gd" id="2_lvg2v"]
 [ext_resource type="Texture2D" uid="uid://dufcbhroq471y" path="res://assets/cursor_finger.png" id="3_2fhrg"]
+
+[sub_resource type="Resource" id="Resource_tfwgd"]
+script = ExtResource("2_lvg2v")
+display_name = "Swing (5 DMG)"
+damage = 5
+metadata/_custom_type_script = "uid://bbi4b0lckjlf8"
+
+[sub_resource type="Resource" id="Resource_ir610"]
+script = ExtResource("2_lvg2v")
+display_name = "Heal (5)"
+heal = 5
+metadata/_custom_type_script = "uid://bbi4b0lckjlf8"
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pjt0s"]
 bg_color = Color(0.17283267, 0.17283267, 0.17283258, 1)
@@ -21,9 +32,10 @@ shadow_color = Color(0, 0, 0, 0.827451)
 
 [node name="Character" type="Node2D" unique_id=1483473975]
 script = ExtResource("1_0kwol")
-combat_actions = [ExtResource("2_y3j8d"), ExtResource("3_0jttm")]
+combat_actions = [SubResource("Resource_tfwgd"), SubResource("Resource_ir610")]
 
 [node name="Sprite" type="Sprite2D" parent="." unique_id=1044908254]
+scale = Vector2(-1, 1)
 texture = ExtResource("2_5macf")
 
 [node name="HealthBar" type="ProgressBar" parent="." unique_id=587765580]

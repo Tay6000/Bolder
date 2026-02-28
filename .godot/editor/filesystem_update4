@@ -6,3 +6,8 @@ res://Levels/l_1.tscn
 res://Levels/l_1.gd
 res://BattleScene.tscn
 res://chara/slime.tscn
+res://Character.gd
+res://chara/basil.tscn
+res://John_Spelunk_Stuff/john_spelunk.tscn
+res://John_Spelunk_Stuff/john_spelunk_move.gd
+res://battle_scene.gd

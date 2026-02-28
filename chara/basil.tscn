@@ -2,11 +2,40 @@
 
 [ext_resource type="Script" uid="uid://crq6b7b7p75gc" path="res://Character.gd" id="1_lllq6"]
 [ext_resource type="Resource" uid="uid://cdqtl8noyx0y7" path="res://Combat Actions/Swing.tres" id="2_3tya3"]
-[ext_resource type="Texture2D" uid="uid://d0wyu68rxcrak" path="res://assets/BlueDragon.png" id="2_qyyhk"]
 [ext_resource type="Texture2D" uid="uid://dufcbhroq471y" path="res://assets/cursor_finger.png" id="3_5ikp8"]
 [ext_resource type="Resource" uid="uid://cl0ant4fxv7" path="res://Combat Actions/baseHeal.tres" id="3_pk2pj"]
 [ext_resource type="Resource" uid="uid://brih87dtv7g74" path="res://Combat Actions/RecklessSwing.tres" id="4_gk2re"]
 [ext_resource type="Resource" uid="uid://bjd2rk4e0defv" path="res://Combat Actions/BaseCombatResource.tres" id="5_pk2pj"]
+[ext_resource type="Texture2D" uid="uid://bbbh7awf5621n" path="res://John_Spelunk_Stuff/GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png" id="6_p4ee7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ked3n"]
+atlas = ExtResource("6_p4ee7")
+region = Rect2(0, 0, 456, 417)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwd2o"]
+atlas = ExtResource("6_p4ee7")
+region = Rect2(456, 0, 456, 417)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1r7h"]
+atlas = ExtResource("6_p4ee7")
+region = Rect2(912, 0, 456, 417)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bd0eq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ked3n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwd2o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1r7h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pjt0s"]
 bg_color = Color(0.17283267, 0.17283267, 0.17283258, 1)
@@ -25,8 +54,10 @@ shadow_color = Color(0, 0, 0, 0.827451)
 script = ExtResource("1_lllq6")
 combat_actions = [ExtResource("2_3tya3"), ExtResource("3_pk2pj"), ExtResource("4_gk2re"), ExtResource("5_pk2pj")]
 
-[node name="Sprite" type="Sprite2D" parent="." unique_id=1266381813]
-texture = ExtResource("2_qyyhk")
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=161951970]
+position = Vector2(-5.999999, 1.9999998)
+scale = Vector2(0.34, 0.34)
+sprite_frames = SubResource("SpriteFrames_bd0eq")
 
 [node name="HealthBar" type="ProgressBar" parent="." unique_id=240081909]
 offset_left = -60.0

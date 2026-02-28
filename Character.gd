@@ -32,7 +32,7 @@ func take_damage(damage):
 	cur_hp -= damage
 	_update_health_bar()
 	if cur_hp <= 0 :
-		get_node("root/BattleScene").character_died(self)
+		get_parent().get_parent().character_died(self)
 		queue_free() # Will be either game over or victory later
 
 func heal (amount):
@@ -55,8 +55,14 @@ func nofocus():
 	$Focus.hide()
 
 func _on_character_begin_turn(character):
-	print("it my turn :p", character)
-	pass
+	if not is_player:
+		if cur_hp < 10:
+			heal(5)
+			get_node("/root/BattleScene").end_current_turn()
+		else:
+			target = get_parent().get_parent().player_group.players[0]
+			target.take_damage(5)
+			get_node("/root/BattleScene").end_current_turn()
 
 func _on_character_end_turn(character):
 	pass
