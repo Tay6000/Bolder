@@ -13,10 +13,10 @@ func _process(delta: float) -> void:
 	pass
 
 func start_combat():
-	enemies._load_party(1, 0)
-	players._load_party(1, 0)
+	enemies.encounter = [1, 0]
+	players.encounter = [1, 0]
 	_add_scene_manually()
-	get_node("/root/L1").free()
+	get_node("/root/L1").queue_free()
 
 func _add_scene_manually():
-	get_tree().root.add_child(battleScene)
+	get_tree().root.add_child(battleScene.instantiate())

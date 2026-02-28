@@ -5,8 +5,11 @@ extends Node2D
 @export var index : int = 0
 @onready var john = preload("res://chara/basil.tscn").instantiate()
 
+var encounter = [1, 0]
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	_load_party(encounter)
 	players = get_children()
 	for i in players.size():
 		players[i].position = Vector2(0, i*180)
@@ -21,8 +24,7 @@ func _process(delta: float) -> void:
 func _add_chara(newChar):
 	add_child(newChar)
 
-func _load_party(player1 : int, player2 : int):
-	var list = [player1, player2]
+func _load_party(list : Array):
 	for player in list:
 		if player == 0:
 			continue

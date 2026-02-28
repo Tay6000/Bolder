@@ -1,16 +1,16 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1772310147
+::res://::1772311591
 BattleScene.tscn::PackedScene::7087844063785062006::1772310049::0::1::::<><><>0<>0<><>::uid://cs3cc1uhke4de::::res://battle_scene.gd<>uid://oea2uyph2jxn::::res://character.tscn<>uid://cnglyqccx5hwk::::res://PlayerUi.gd<>uid://c26qfjlp7aoor::::res://CombatActionButton.gd
 battle_scene.gd::GDScript::6094169532392595710::1772302258::0::1::::<>Node2D<><>0<>0<><>::
 Character.gd::GDScript::6000967449634654582::1772228292::0::1::::Character<>Node2D<><>0<>0<><>::
 character.tscn::PackedScene::990950626618391655::1767221830::0::1::::<><><>0<>0<><>::uid://b80m1246h3yat::::res://assets/Dragon.png<>uid://crq6b7b7p75gc::::res://Character.gd<>uid://dufcbhroq471y::::res://assets/cursor_finger.png
 CombatAction.gd::GDScript::2474888458128947039::1767206936::0::1::::CombatAction<>Resource<><>0<>0<><>::
 CombatActionButton.gd::GDScript::6732916747270028101::1767214792::0::1::::<>Button<><>0<>0<><>::
-enemy_party.gd::GDScript::7085684775939893484::1772310044::0::1::::<>Node2D<><>0<>0<><>::
+enemy_party.gd::GDScript::7085684775939893484::1772311431::0::1::::<>Node2D<><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1767226006::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1790880795757653::1766769526::1772285992::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 PlayerUi.gd::GDScript::5698394190765136050::1767224998::0::1::::<>HBoxContainer<><>0<>0<><>::
-player_party.gd::GDScript::8286706564588287165::1772309741::0::1::::<>Node2D<><>0<>0<><>::
+player_party.gd::GDScript::8286706564588287165::1772311431::0::1::::<>Node2D<><>0<>0<><>::
 README.md::TextFile::-1::1767225594::0::1::::<><><>0<>0<><>::
 ::res://addons/::1772290751
 ::res://addons/godot_super-wakatime/::1772290751
@@ -29,11 +29,11 @@ Dragon.png::CompressedTexture2D::4755038466503151715::1766771206::1772285993::1:
 RedDragon.png::CompressedTexture2D::1184526341957452504::1766771210::1772285993::1::::<><><>0<>0<>868338956f591bde80db79f38aea48af<>res://.godot/imported/RedDragon.png-e074bd2c84651ca058a321053a389e1f.ctex::
 Reptile.png::CompressedTexture2D::1014389141822389235::1766771216::1772285993::1::::<><><>0<>0<>83db9db79f3b4d5b0ebcd8308647b4f7<>res://.godot/imported/Reptile.png-6176423f6880e8583c02491c4dcd2ced.ctex::
 Snake.png::CompressedTexture2D::8321815383593474832::1766771218::1772285993::1::::<><><>0<>0<>8ef66acb753295c9d58ad456fa685885<>res://.godot/imported/Snake.png-b2db00f67ae048077d6d650605f4d4a7.ctex::
-::res://chara/::1772307176
-basil.tscn::PackedScene::3728268375825298730::1772307176::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://d0wyu68rxcrak::::res://assets/BlueDragon.png<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres<>uid://bjd2rk4e0defv::::res://Combat Actions/BaseCombatResource.tres
-bowlder.tscn::PackedScene::4427369663317172909::1767208674::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://df0xkefms4j3o::::res://assets/Boar.png<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres
-slime.tscn::PackedScene::2460721867604971491::1767207476::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://opm3uffnxwul::::res://assets/Reptile.png<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://dufcbhroq471y::::res://assets/cursor_finger.png
-spider.tscn::PackedScene::3977522804668513134::1767207476::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://q418gaqcrcmq::::res://assets/RedDragon.png<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres
+::res://chara/::1772311431
+basil.tscn::PackedScene::3728268375825298730::1772311431::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://d0wyu68rxcrak::::res://assets/BlueDragon.png<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres<>uid://bjd2rk4e0defv::::res://Combat Actions/BaseCombatResource.tres
+bowlder.tscn::PackedScene::4427369663317172909::1772311431::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://df0xkefms4j3o::::res://assets/Boar.png<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres
+slime.tscn::PackedScene::2460721867604971491::1772311431::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://opm3uffnxwul::::res://assets/Reptile.png<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://dufcbhroq471y::::res://assets/cursor_finger.png
+spider.tscn::PackedScene::3977522804668513134::1772311431::0::1::::<><><>0<>0<><>::uid://crq6b7b7p75gc::::res://Character.gd<>uid://q418gaqcrcmq::::res://assets/RedDragon.png<>uid://cdqtl8noyx0y7::::res://Combat Actions/Swing.tres<>uid://cl0ant4fxv7::::res://Combat Actions/baseHeal.tres<>uid://dufcbhroq471y::::res://assets/cursor_finger.png<>uid://brih87dtv7g74::::res://Combat Actions/RecklessSwing.tres
 ::res://Combat Actions/::1772290751
 BaseCombatResource.tres::Resource/CombatAction::3025983697246751927::1767208674::0::1::::<><><>0<>0<><>::uid://bbi4b0lckjlf8::::res://CombatAction.gd
 baseHeal.tres::Resource/CombatAction::4841308260881118::1767208674::0::1::::<><><>0<>0<><>::uid://bbi4b0lckjlf8::::res://CombatAction.gd
@@ -45,9 +45,9 @@ Test.tscn::PackedScene::8099162704508995467::1766769602::0::1::::<><><>0<>0<><>:
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1766769602::1772285994::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1766769602::1772285993::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1766769602::1772285993::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
-::res://John_Spelunk_Stuff/::1772310047
-john_spelunk.tscn::PackedScene::541908705304819709::1772310047::0::1::::<><><>0<>0<><>::uid://4q335xxs2p::::res://icon.svg<>uid://glrtjvpqqtq6::::res://John_Spelunk_Stuff/john_spelunk_move.gd
-john_spelunk_move.gd::GDScript::444907841938682923::1772309861::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+::res://John_Spelunk_Stuff/::1772311431
+john_spelunk.tscn::PackedScene::541908705304819709::1772311431::0::1::::<><><>0<>0<><>::uid://4q335xxs2p::::res://icon.svg<>uid://glrtjvpqqtq6::::res://John_Spelunk_Stuff/john_spelunk_move.gd
+john_spelunk_move.gd::GDScript::444907841938682923::1772311431::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
 ::res://JRPG web test/::1772290752
 index.apple-touch-icon.png::CompressedTexture2D::2679369361610722835::1767226004::1772285993::1::::<><><>0<>0<>7555688ddeebec56860d1fa98b5164df<>res://.godot/imported/index.apple-touch-icon.png-7e005d102872b76f4d276d379a400dc9.ctex::
 index.icon.png::CompressedTexture2D::8196126499135630683::1767226004::1772285992::1::::<><><>0<>0<>cd43dbd67d0f6b5f00e1a43257f35010<>res://.godot/imported/index.icon.png-aa3e5965b06bb6be8151c27b71b05f6b.ctex::
@@ -55,12 +55,12 @@ index.png::CompressedTexture2D::8757644681812449841::1767226004::1772285993::1::
 JRPGwebTest.apple-touch-icon.png::CompressedTexture2D::1858023130076976977::1767212788::1772285992::1::::<><><>0<>0<>6d1573741c40ce5fc3fa9b581f3adef3<>res://.godot/imported/JRPGwebTest.apple-touch-icon.png-94161b3715672e5c14bd8efde7555a83.ctex::
 JRPGwebTest.icon.png::CompressedTexture2D::8826261977104068770::1767212788::1772285992::1::::<><><>0<>0<>c5704ed6755f11e4038223ec2be3f231<>res://.godot/imported/JRPGwebTest.icon.png-96888fdad0b576c4eef3be61d13dc608.ctex::
 JRPGwebTest.png::CompressedTexture2D::814781526728848288::1767212788::1772285993::1::::<><><>0<>0<>05fcf92dadd2cd4bdb8bb33959b2dfb3<>res://.godot/imported/JRPGwebTest.png-e450ab178647010cfbf1a8e95001eaac.ctex::
-::res://Levels/::1772310048
-l_1.gd::GDScript::4773236484032770876::1772309887::0::1::::<>Node2D<><>0<>0<><>::
-l_1.tscn::PackedScene::4900305766832233298::1772310048::0::1::::<><><>0<>0<><>::uid://caagrixkqn7n1::::res://Levels/l_1.gd<>uid://4q335xxs2p::::res://icon.svg<>uid://hyrflyxnbrll::::res://John_Spelunk_Stuff/john_spelunk.tscn<>uid://bckytvnv2suim::::res://Levels/test_encounter.gd
+::res://Levels/::1772311431
+l_1.gd::GDScript::4773236484032770876::1772311431::0::1::::<>Node2D<><>0<>0<><>::
+l_1.tscn::PackedScene::4900305766832233298::1772311431::0::1::::<><><>0<>0<><>::uid://caagrixkqn7n1::::res://Levels/l_1.gd<>uid://4q335xxs2p::::res://icon.svg<>uid://hyrflyxnbrll::::res://John_Spelunk_Stuff/john_spelunk.tscn<>uid://bckytvnv2suim::::res://Levels/test_encounter.gd
 open.tscn::PackedScene::3179392454828558811::1772310046::0::1::::<><><>0<>0<><>::uid://djbhi58e7dhk0::::res://Levels/Opening.gd<>uid://4q335xxs2p::::res://icon.svg
 Opening.gd::GDScript::7793466953779939681::1772300378::0::1::::<>Node2D<><>0<>0<><>::
-test_encounter.gd::GDScript::2548934410484118028::1772309780::0::1::::<>Area2D<><>0<>0<><>::
-::res://parties/::1772310046
-enemy_party.tscn::PackedScene::8802926863889210731::1772310046::0::1::::<><><>0<>0<><>::uid://c77mgte1tntrg::::res://enemy_party.gd
-player_party.tscn::PackedScene::7901257802584281458::1772310045::0::1::::<><><>0<>0<><>::uid://dqce31pr5hffh::::res://player_party.gd
+test_encounter.gd::GDScript::2548934410484118028::1772311431::0::1::::<>Area2D<><>0<>0<><>::
+::res://parties/::1772311431
+enemy_party.tscn::PackedScene::8802926863889210731::1772311431::0::1::::<><><>0<>0<><>::uid://c77mgte1tntrg::::res://enemy_party.gd
+player_party.tscn::PackedScene::7901257802584281458::1772311431::0::1::::<><><>0<>0<><>::uid://dqce31pr5hffh::::res://player_party.gd

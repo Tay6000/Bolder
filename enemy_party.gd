@@ -7,8 +7,11 @@ extends Node2D
 @onready var Bowlder = preload("res://chara/bowlder.tscn").instantiate()
 @onready var spider = preload("res://chara/spider.tscn").instantiate()
 
+var encounter = [1, 0]
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	_load_party(encounter)
 	enemies = get_children()
 	for i in enemies.size():
 		enemies[i].position = Vector2(0, i*180)
@@ -24,8 +27,7 @@ func _process(delta: float) -> void:
 func _add_chara(newChar):
 	add_child(newChar)
 
-func _load_party(enemy1 : int, enemy2 : int):
-	var list = [enemy1, enemy2]
+func _load_party(list : Array):
 	for enemy in list:
 		if enemy == 0:
 			continue
