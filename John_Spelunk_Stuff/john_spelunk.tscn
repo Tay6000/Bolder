@@ -9,6 +9,7 @@ size = Vector2(35, 27)
 [node name="John_Spelunk" type="CharacterBody2D" unique_id=1481407721]
 script = ExtResource("1_7tior")
 SPEED = 200.0
+JUMP_VELOCITY = -300.0
 
 [node name="John_sprite" type="Sprite2D" parent="." unique_id=969468371]
 position = Vector2(0, -15.5)

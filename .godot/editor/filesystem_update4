@@ -2,3 +2,6 @@ res://John_Spelunk_Stuff/john_spelunk.tscn
 res://Levels/l_1.tscn
 res://BattleScene.tscn
 res://John_Spelunk_Stuff/john_spelunk_move.gd
+res://cutscenes.gd
+res://Levels/open.tscn
+res://Levels/Opening.gd

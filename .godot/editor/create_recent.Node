@@ -1,6 +1,7 @@
+AnimationPlayer
+AnimatedSprite2D
 Camera2D
 CollisionShape2D
 CharacterBody2D
 TileMap
 Sprite2D
-AnimatedSprite2D
