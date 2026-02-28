@@ -51,9 +51,9 @@ func begin_next_turn(): # Needs review for true party system
 				cur_char = enemy_group.enemies[0]
 				char_count =1
 	elif cur_char.is_player == false:
-		if char_count <= enemy_group.enemies.size :
+		if char_count < enemy_group.enemies.size :
 			cur_char = enemy_group.enemies[char_count]
-			char_count =+1
+			char_count = (char_count)+1
 		else :
 			cur_char = player_group.players[0]
 			char_count =1
@@ -84,6 +84,7 @@ func pick_target(guynumber):
 		cur_char.target = enemy_group.enemies[guynumber]
 		print ("target: ", guynumber)
 	else:
+		
 		pass
 
 func enemyUnfocus():
@@ -106,4 +107,5 @@ func _process(delta: float) -> void:
 		get_node("/root/BattleScene").queue_free()
 
 func _add_scene_manually():
+	level1 = preload("res://Levels/l_1.tscn")
 	get_tree().root.add_child(level1.instantiate())

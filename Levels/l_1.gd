@@ -19,4 +19,5 @@ func start_combat():
 	get_node("/root/L1").queue_free()
 
 func _add_scene_manually():
+	battleScene = preload("res://BattleScene.tscn")
 	get_tree().root.add_child(battleScene.instantiate())
