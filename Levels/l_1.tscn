@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://cb20k47x0v1gg"]
 
+[ext_resource type="Script" uid="uid://caagrixkqn7n1" path="res://Levels/l_1.gd" id="1_js4pb"]
 [ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_wxp3d"]
 [ext_resource type="PackedScene" uid="uid://hyrflyxnbrll" path="res://John_Spelunk_Stuff/john_spelunk.tscn" id="2_g4tqg"]
+[ext_resource type="Script" uid="uid://bckytvnv2suim" path="res://Levels/test_encounter.gd" id="4_85foq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g4tqg"]
 texture = ExtResource("1_wxp3d")
@@ -138,7 +140,11 @@ texture = ExtResource("1_wxp3d")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_g4tqg")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dus48"]
+size = Vector2(44, 43.25)
+
 [node name="L1" type="Node2D" unique_id=523976112]
+script = ExtResource("1_js4pb")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1039702357]
 tile_set = SubResource("TileSet_5qlml")
@@ -148,3 +154,17 @@ layer_0/tile_data = PackedInt32Array(1048576, 65536, 1, 1048577, 65536, 1, 10485
 [node name="John_Spelunk" parent="TileMap" unique_id=1481407721 instance=ExtResource("2_g4tqg")]
 position = Vector2(57, 250)
 JUMP_VELOCITY = -330.0
+
+[node name="test_encounter" type="Area2D" parent="." unique_id=395789162]
+script = ExtResource("4_85foq")
+
+[node name="Sprite2D" type="Sprite2D" parent="test_encounter" unique_id=206656025]
+position = Vector2(458.5, 217.5)
+scale = Vector2(0.3515625, 0.3359375)
+texture = ExtResource("1_wxp3d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="test_encounter" unique_id=766902834]
+position = Vector2(458.5, 218.125)
+shape = SubResource("RectangleShape2D_dus48")
+
+[connection signal="body_entered" from="test_encounter" to="TileMap/John_Spelunk" method="_on_test_encounter_body_entered"]

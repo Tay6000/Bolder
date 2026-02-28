@@ -3,16 +3,10 @@ extends Node2D
 
 @export var players: Array = []
 @export var index : int = 0
-@onready var dragonman = preload("res://chara/dragonman.tscn").instantiate()
-@onready var bad = preload("res://chara/baddragon.tscn").instantiate()
-
+@onready var john = preload("res://chara/basil.tscn").instantiate()
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	dragonman.is_player = true
-	bad.is_player = true
-	_add_chara(dragonman)
-	_add_chara(bad)
 	players = get_children()
 	for i in players.size():
 		players[i].position = Vector2(0, i*180)
@@ -26,3 +20,12 @@ func _process(delta: float) -> void:
 
 func _add_chara(newChar):
 	add_child(newChar)
+
+func _load_party(player1 : int, player2 : int):
+	var list = [player1, player2]
+	for player in list:
+		if player == 0:
+			continue
+		if player == 1:
+			john.is_player = true
+			_add_chara(john)

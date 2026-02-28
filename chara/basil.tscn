@@ -21,14 +21,14 @@ outline_color = Color(0, 0, 0, 1)
 shadow_size = 3
 shadow_color = Color(0, 0, 0, 0.827451)
 
-[node name="Character" type="Node2D"]
+[node name="Character" type="Node2D" unique_id=1167125149]
 script = ExtResource("1_lllq6")
 combat_actions = [ExtResource("2_3tya3"), ExtResource("3_pk2pj"), ExtResource("4_gk2re"), ExtResource("5_pk2pj")]
 
-[node name="Sprite" type="Sprite2D" parent="."]
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1266381813]
 texture = ExtResource("2_qyyhk")
 
-[node name="HealthBar" type="ProgressBar" parent="."]
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=240081909]
 offset_left = -60.0
 offset_top = 80.0
 offset_right = 61.0
@@ -38,7 +38,7 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_wa5vi")
 value = 50.0
 show_percentage = false
 
-[node name="HealthText" type="Label" parent="HealthBar"]
+[node name="HealthText" type="Label" parent="HealthBar" unique_id=1268450176]
 layout_mode = 0
 offset_top = -2.0
 offset_right = 120.0
@@ -48,7 +48,7 @@ label_settings = SubResource("LabelSettings_wfnr8")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Focus" type="Sprite2D" parent="."]
+[node name="Focus" type="Sprite2D" parent="." unique_id=509680248]
 visible = false
 position = Vector2(-150, 0)
 texture = ExtResource("3_5ikp8")

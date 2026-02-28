@@ -21,3 +21,5 @@ shape = SubResource("RectangleShape2D_7tior")
 
 [node name="John_paparazi" type="Camera2D" parent="." unique_id=2055879631]
 zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0

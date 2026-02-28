@@ -3,15 +3,12 @@ extends Node2D
 @export var enemies: Array = []
 @export var index : int = 0
 
-@onready var lizardman = preload("res://chara/lizardman.tscn").instantiate()
-@onready var bore = preload("res://chara/battlecatsguythatIhate.tscn").instantiate()
+@onready var slime = preload("res://chara/slime.tscn").instantiate()
+@onready var Bowlder = preload("res://chara/bowlder.tscn").instantiate()
+@onready var spider = preload("res://chara/spider.tscn").instantiate()
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	lizardman.flip_visual = true
-	bore.flip_visual = true
-	_add_chara(lizardman)
-	_add_chara(bore)
 	enemies = get_children()
 	for i in enemies.size():
 		enemies[i].position = Vector2(0, i*180)
@@ -26,3 +23,18 @@ func _process(delta: float) -> void:
 
 func _add_chara(newChar):
 	add_child(newChar)
+
+func _load_party(enemy1 : int, enemy2 : int):
+	var list = [enemy1, enemy2]
+	for enemy in list:
+		if enemy == 0:
+			continue
+		if enemy == 1:
+			slime.is_player = false
+			_add_chara(slime)
+		if enemy == 2:
+			Bowlder.is_player = false
+			_add_chara(Bowlder)
+		if enemy == 3:
+			spider.is_player = false
+			_add_chara(spider)
