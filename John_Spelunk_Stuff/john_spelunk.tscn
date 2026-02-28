@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://hyrflyxnbrll"]
+
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_3r71r"]
+[ext_resource type="Script" uid="uid://glrtjvpqqtq6" path="res://John_Spelunk_Stuff/john_spelunk_move.gd" id="1_7tior"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7tior"]
+size = Vector2(35, 27)
+
+[node name="John_Spelunk" type="CharacterBody2D" unique_id=1481407721]
+script = ExtResource("1_7tior")
+SPEED = 200.0
+
+[node name="John_sprite" type="Sprite2D" parent="." unique_id=969468371]
+position = Vector2(0, -15.5)
+scale = Vector2(0.296875, 0.2265625)
+texture = ExtResource("1_3r71r")
+
+[node name="John_collision" type="CollisionShape2D" parent="." unique_id=1749503339]
+position = Vector2(0.5, -15.5)
+shape = SubResource("RectangleShape2D_7tior")
+
+[node name="John_paparazi" type="Camera2D" parent="." unique_id=2055879631]
+zoom = Vector2(4.775, 4.775)

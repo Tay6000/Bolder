@@ -1,21 +1,21 @@
-[gd_scene load_steps=5 format=3 uid="uid://c78n0yfbk1p4q"]
+[gd_scene format=3 uid="uid://c78n0yfbk1p4q"]
 
 [ext_resource type="Script" uid="uid://cs3cc1uhke4de" path="res://battle_scene.gd" id="1_b278l"]
 [ext_resource type="PackedScene" uid="uid://oea2uyph2jxn" path="res://character.tscn" id="2_hvnqj"]
 [ext_resource type="Script" uid="uid://cnglyqccx5hwk" path="res://PlayerUi.gd" id="3_musxc"]
 [ext_resource type="Script" uid="uid://c26qfjlp7aoor" path="res://CombatActionButton.gd" id="4_teshm"]
 
-[node name="BattleScene" type="Node2D"]
+[node name="BattleScene" type="Node2D" unique_id=256220572]
 script = ExtResource("1_b278l")
 
-[node name="Placeholder" parent="." instance=ExtResource("2_hvnqj")]
+[node name="Placeholder" parent="." unique_id=250262427 instance=ExtResource("2_hvnqj")]
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1901123784]
 zoom = Vector2(1.5, 1.5)
 
-[node name="Backdrop" type="Sprite2D" parent="."]
+[node name="Backdrop" type="Sprite2D" parent="." unique_id=319425546]
 
-[node name="PlayerCombatActionsUI" type="HBoxContainer" parent="."]
+[node name="PlayerCombatActionsUI" type="HBoxContainer" parent="." unique_id=569599615]
 offset_left = -375.0
 offset_top = 161.0
 offset_right = 376.0
@@ -23,22 +23,22 @@ offset_bottom = 207.0
 script = ExtResource("3_musxc")
 buttons = [NodePath("CombatAction"), NodePath("CombatAction2"), NodePath("CombatAction3"), NodePath("CombatAction4")]
 
-[node name="CombatAction" type="Button" parent="PlayerCombatActionsUI"]
+[node name="CombatAction" type="Button" parent="PlayerCombatActionsUI" unique_id=904441348]
 layout_mode = 2
 text = "Action 1 (Space)"
 script = ExtResource("4_teshm")
 
-[node name="CombatAction2" type="Button" parent="PlayerCombatActionsUI"]
+[node name="CombatAction2" type="Button" parent="PlayerCombatActionsUI" unique_id=785909273]
 layout_mode = 2
 text = "Action 1 (Space)"
 script = ExtResource("4_teshm")
 
-[node name="CombatAction3" type="Button" parent="PlayerCombatActionsUI"]
+[node name="CombatAction3" type="Button" parent="PlayerCombatActionsUI" unique_id=417528590]
 layout_mode = 2
 text = "Action 1 (Space)"
 script = ExtResource("4_teshm")
 
-[node name="CombatAction4" type="Button" parent="PlayerCombatActionsUI"]
+[node name="CombatAction4" type="Button" parent="PlayerCombatActionsUI" unique_id=681317937]
 layout_mode = 2
 text = "Action 1 (Space)"
 script = ExtResource("4_teshm")
