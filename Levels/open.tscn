@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://blkeenmx7vjff"]
 
 [ext_resource type="Script" uid="uid://djbhi58e7dhk0" path="res://Levels/Opening.gd" id="1_ac27e"]
-[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="2_qo4v2"]
+[ext_resource type="Texture2D" uid="uid://cn310tmhum028" path="res://images/ULTRAKILL.jpg" id="2_ac27e"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m43gk"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_qo4v2")
+"texture": ExtResource("2_ac27e")
 }],
 "loop": true,
 "name": &"default",
@@ -18,6 +18,6 @@ animations = [{
 script = ExtResource("1_ac27e")
 
 [node name="Cutscene_sprites" type="AnimatedSprite2D" parent="." unique_id=557147792]
-position = Vector2(576, 330.50003)
-scale = Vector2(8.968749, 5.085938)
+position = Vector2(579.75, 327)
+scale = Vector2(2.522826, 3.065116)
 sprite_frames = SubResource("SpriteFrames_m43gk")

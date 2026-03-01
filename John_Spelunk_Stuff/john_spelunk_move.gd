@@ -49,3 +49,7 @@ func _physics_process(delta: float) -> void:
 func _on_test_encounter_body_entered(body: Node2D) -> void:
 	if body is Player:
 		self.get_parent().get_parent().start_combat()
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body is Player:
+		position.y -= 1200

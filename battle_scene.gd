@@ -59,7 +59,7 @@ func begin_next_turn(): # Needs review for true party system
 			char_count =1
 	else:
 		cur_char = player_group.players[char_count]
-		char_count =+1
+		char_count = 1
 	pick_target(last_guy)
 	character_begin_turn.emit(cur_char)
 

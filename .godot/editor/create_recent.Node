@@ -1,7 +1,8 @@
+CollisionShape2D
+Area2D
+AudioStreamPlayer2D
 ColorRect
 AnimatedSprite2D
-Area2D
-CollisionShape2D
 Sprite2D
 CharacterBody2D
 AnimationPlayer

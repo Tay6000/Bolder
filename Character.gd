@@ -55,7 +55,7 @@ func nofocus():
 	$Focus.hide()
 
 func _on_character_begin_turn(character):
-	if not is_player:
+	if not (self in get_parent().get_parent().player_group.players):
 		if cur_hp < 10:
 			heal(5)
 			get_node("/root/BattleScene").end_current_turn()
