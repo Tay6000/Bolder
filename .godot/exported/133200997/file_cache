@@ -1,0 +1,18 @@
+res://addons/godot_super-wakatime/api_key_prompt.tscn::a6988a5ba43d5aa92a08f216c1db28db::1766769602::res://.godot/exported/133200997/export-cd8705cb5e2533bd79c64579ac674dae-api_key_prompt.scn
+res://addons/godot_super-wakatime/counter.tscn::7f13ad35960e259f6de719f9785ce249::1766769602::res://.godot/exported/133200997/export-4af6c9115c1c285af5925fa1ce6a526e-counter.scn
+res://chara/basil.tscn::52f8768a54e02e1873638da64e696964::1772318803::res://.godot/exported/133200997/export-d3a40cb1f438768d7cdbcc4384beda02-basil.scn
+res://chara/bowlder.tscn::722533f6d62c56f8313c82c7d0841cff::1772311431::res://.godot/exported/133200997/export-f26d4de09efe7a28b33de99934e6872f-bowlder.scn
+res://chara/slime.tscn::508e9688cf45e53bd13af7c4f22df65a::1772321967::res://.godot/exported/133200997/export-b9d8c2e983e3775c0b0200c79d9c07d7-slime.scn
+res://chara/spider.tscn::62cba4a0a0681f466c04ecde3749dee7::1772311431::res://.godot/exported/133200997/export-11fe7a667903cec057a71f6ed2c05442-spider.scn
+res://Combat Actions/BaseCombatResource.tres::5ac52dda11d6ce7580515082c6393d5d::1767208674::res://.godot/exported/133200997/export-a59d072d37fc9e83a6fcc03bfeb99701-BaseCombatResource.res
+res://Combat Actions/baseHeal.tres::d3fe90b9a2c4d71bda195366a0feabed::1767208674::res://.godot/exported/133200997/export-2e908ae5ea0df814202e160eedd32f08-baseHeal.res
+res://Combat Actions/RecklessSwing.tres::2703a5145640129f1144fb3717f67b78::1767208674::res://.godot/exported/133200997/export-c87190b50ebed2ccfed7bf5a6403467b-RecklessSwing.res
+res://Combat Actions/Swing.tres::0ce1c3e1bdf639b767e2a812d6ec8422::1767208674::res://.godot/exported/133200997/export-c91ad841ea7f5682102e0929cc3e0ca6-Swing.res
+res://currentlyUseless/Test.tscn::9745d3afc3dd40f349aa41f53b4acb10::1766769602::res://.godot/exported/133200997/export-da5bcbbbc60c3dd018b39802f92701b3-Test.scn
+res://John_Spelunk_Stuff/john_spelunk.tscn::7c48f66f0cc0ca61aae4dc1ff524220e::1772325015::res://.godot/exported/133200997/export-9616574613bd2c58ea124061aaef6e73-john_spelunk.scn
+res://Levels/l_1.tscn::ef0ba689ba8824cde91291a19da1cf97::1772325417::res://.godot/exported/133200997/export-d290f69a455478d61357706bc1708b30-l_1.scn
+res://Levels/open.tscn::0e1e70047599cd7939770f8df02f5e17::1772322420::res://.godot/exported/133200997/export-13fb70af563e112de9313a0125051c4b-open.scn
+res://parties/enemy_party.tscn::23b7ce70321a61886ab17ce64f337793::1772316515::res://.godot/exported/133200997/export-4afa32e6399a9cce1862bd51c70b3656-enemy_party.scn
+res://parties/player_party.tscn::d2f67764b6981e6747bb8116ced1a14a::1772316530::res://.godot/exported/133200997/export-8123bdc36f87eb235fa53b38851e7601-player_party.scn
+res://BattleScene.tscn::2eb2ca49ab9ea2a9e81208ebb5f3dad0::1772318433::res://.godot/exported/133200997/export-9f99f6b4394958687e64c11ae723715f-BattleScene.scn
+res://character.tscn::73e6fed6bfb51ed2f13dd6541407e19a::1767221830::res://.godot/exported/133200997/export-053c088fcfd156ea19f3d1ba53835dc9-character.scn

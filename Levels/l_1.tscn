@@ -153,11 +153,10 @@ position = Vector2(0, -1)
 script = ExtResource("1_js4pb")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1616759927]
-offset_left = -493.0
-offset_top = -397.0
-offset_right = 1524.0
-offset_bottom = 2596.0
-color = Color(0.17880967, 0.17880964, 0.17880964, 1)
+offset_left = -495.0
+offset_top = -399.0
+offset_right = 1522.0
+offset_bottom = 2594.0
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1039702357]
 tile_set = SubResource("TileSet_5qlml")

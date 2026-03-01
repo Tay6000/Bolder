@@ -3,10 +3,6 @@
 [ext_resource type="Script" uid="uid://glrtjvpqqtq6" path="res://John_Spelunk_Stuff/john_spelunk_move.gd" id="1_7tior"]
 [ext_resource type="Texture2D" uid="uid://bbbh7awf5621n" path="res://John_Spelunk_Stuff/GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png" id="2_7tior"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ihmo5"]
-radius = 7.0
-height = 27.0
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_q6geg"]
 atlas = ExtResource("2_7tior")
 region = Rect2(0, 0, 456, 417)
@@ -137,9 +133,21 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ihmo5"]
+radius = 7.0
+height = 27.0
+
 [node name="John_Spelunk" type="CharacterBody2D" unique_id=1481407721]
 script = ExtResource("1_7tior")
 JUMP_VELOCITY = -300.0
+
+[node name="John_sprite" type="AnimatedSprite2D" parent="." unique_id=1864629879]
+position = Vector2(-1.9999998, -15)
+scale = Vector2(0.078, 0.079)
+sprite_frames = SubResource("SpriteFrames_h1guu")
+animation = &"jump"
+frame = 8
+frame_progress = 1.0
 
 [node name="John_collision" type="CollisionShape2D" parent="." unique_id=1749503339]
 position = Vector2(0, -13.5)
@@ -149,11 +157,3 @@ shape = SubResource("CapsuleShape2D_ihmo5")
 zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 position_smoothing_speed = 10.0
-
-[node name="John_sprite" type="AnimatedSprite2D" parent="." unique_id=1864629879]
-position = Vector2(-1.9999998, -15)
-scale = Vector2(0.078, 0.079)
-sprite_frames = SubResource("SpriteFrames_h1guu")
-animation = &"jump"
-frame = 8
-frame_progress = 1.0

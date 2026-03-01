@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1772323053
+::res://::1772327891
 BattleScene.tscn::PackedScene::7087844063785062006::1772318433::0::1::::<><><>0<>0<><>::uid://cs3cc1uhke4de::::res://battle_scene.gd<>uid://oea2uyph2jxn::::res://character.tscn<>uid://cnglyqccx5hwk::::res://PlayerUi.gd<>uid://c26qfjlp7aoor::::res://CombatActionButton.gd
 battle_scene.gd::GDScript::6094169532392595710::1772322402::0::1::::<>Node2D<><>0<>0<><>::
 Character.gd::GDScript::6000967449634654582::1772321820::0::1::::Character<>Node2D<><>0<>0<><>::
@@ -48,10 +48,10 @@ godotwaka.png::CompressedTexture2D::7932361111412089001::1766769602::1772285993:
 icon.jpg::CompressedTexture2D::3122668444336440389::1766769602::1772285993::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
 Prison gm.mp3::AudioStreamMP3::1796595451995349931::1772322587::1772322587::1::::<><><>0<>0<>a862420c5f76b17d41349702e1aa7437<>res://.godot/imported/Prison gm.mp3-79816188ad57a3aa50f73a1185f4f9af.mp3str::
 ULTRAKILL.jpg::CompressedTexture2D::5744723215280429211::1772322363::1772322364::1::::<><><>0<>0<>35cfcfa3b7b5058e8772b79318dea05c<>res://.godot/imported/ULTRAKILL.jpg-f36540c7d12419a5e8e7844e6be60b70.ctex::
-::res://John_Spelunk_Stuff/::1772323021
+::res://John_Spelunk_Stuff/::1772325015
 GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png::CompressedTexture2D::2459156103693730021::1772317244::1772317245::1::::<><><>0<>0<>a79a6ca6e91a2639cb81e1532d2df789<>res://.godot/imported/GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png-dc78b6bdef505df1fc3cebbd8519d9f3.ctex::
-john_spelunk.tscn::PackedScene::541908705304819709::1772323021::0::1::::<><><>0<>0<><>::uid://glrtjvpqqtq6::::res://John_Spelunk_Stuff/john_spelunk_move.gd<>uid://bbbh7awf5621n::::res://John_Spelunk_Stuff/GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png
-john_spelunk_move.gd::GDScript::444907841938682923::1772323021::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+john_spelunk.tscn::PackedScene::541908705304819709::1772325015::0::1::::<><><>0<>0<><>::uid://glrtjvpqqtq6::::res://John_Spelunk_Stuff/john_spelunk_move.gd<>uid://bbbh7awf5621n::::res://John_Spelunk_Stuff/GameJam_BolderOverworldBasil-ezgif.com-gif-to-sprite-converter.png
+john_spelunk_move.gd::GDScript::444907841938682923::1772325015::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
 ::res://JRPG web test/::1772290752
 index.apple-touch-icon.png::CompressedTexture2D::2679369361610722835::1767226004::1772285993::1::::<><><>0<>0<>7555688ddeebec56860d1fa98b5164df<>res://.godot/imported/index.apple-touch-icon.png-7e005d102872b76f4d276d379a400dc9.ctex::
 index.icon.png::CompressedTexture2D::8196126499135630683::1767226004::1772285992::1::::<><><>0<>0<>cd43dbd67d0f6b5f00e1a43257f35010<>res://.godot/imported/index.icon.png-aa3e5965b06bb6be8151c27b71b05f6b.ctex::
@@ -59,9 +59,9 @@ index.png::CompressedTexture2D::8757644681812449841::1767226004::1772285993::1::
 JRPGwebTest.apple-touch-icon.png::CompressedTexture2D::1858023130076976977::1767212788::1772285992::1::::<><><>0<>0<>6d1573741c40ce5fc3fa9b581f3adef3<>res://.godot/imported/JRPGwebTest.apple-touch-icon.png-94161b3715672e5c14bd8efde7555a83.ctex::
 JRPGwebTest.icon.png::CompressedTexture2D::8826261977104068770::1767212788::1772285992::1::::<><><>0<>0<>c5704ed6755f11e4038223ec2be3f231<>res://.godot/imported/JRPGwebTest.icon.png-96888fdad0b576c4eef3be61d13dc608.ctex::
 JRPGwebTest.png::CompressedTexture2D::814781526728848288::1767212788::1772285993::1::::<><><>0<>0<>05fcf92dadd2cd4bdb8bb33959b2dfb3<>res://.godot/imported/JRPGwebTest.png-e450ab178647010cfbf1a8e95001eaac.ctex::
-::res://Levels/::1772322970
-l_1.gd::GDScript::4773236484032770876::1772322633::0::1::::<>Node2D<><>0<>0<><>::
-l_1.tscn::PackedScene::4900305766832233298::1772322969::0::1::::<><><>0<>0<><>::uid://caagrixkqn7n1::::res://Levels/l_1.gd<>uid://4q335xxs2p::::res://icon.svg<>uid://hyrflyxnbrll::::res://John_Spelunk_Stuff/john_spelunk.tscn<>uid://bckytvnv2suim::::res://Levels/test_encounter.gd<>uid://opm3uffnxwul::::res://assets/Reptile.png<>uid://b83xsfkqx2xj2::::res://assets/Prison gm.mp3
+::res://Levels/::1772325417
+l_1.gd::GDScript::4773236484032770876::1772324292::0::1::::<>Node2D<><>0<>0<><>::
+l_1.tscn::PackedScene::4900305766832233298::1772325417::0::1::::<><><>0<>0<><>::uid://caagrixkqn7n1::::res://Levels/l_1.gd<>uid://4q335xxs2p::::res://icon.svg<>uid://hyrflyxnbrll::::res://John_Spelunk_Stuff/john_spelunk.tscn<>uid://bckytvnv2suim::::res://Levels/test_encounter.gd<>uid://opm3uffnxwul::::res://assets/Reptile.png<>uid://b83xsfkqx2xj2::::res://assets/Prison gm.mp3
 open.tscn::PackedScene::3179392454828558811::1772322420::0::1::::<><><>0<>0<><>::uid://djbhi58e7dhk0::::res://Levels/Opening.gd<>uid://cn310tmhum028::::res://images/ULTRAKILL.jpg
 Opening.gd::GDScript::7793466953779939681::1772300378::0::1::::<>Node2D<><>0<>0<><>::
 test_encounter.gd::GDScript::2548934410484118028::1772311431::0::1::::<>Area2D<><>0<>0<><>::
