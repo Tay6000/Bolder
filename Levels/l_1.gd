@@ -21,3 +21,7 @@ func start_combat():
 func _add_scene_manually():
 	battleScene = preload("res://BattleScene.tscn")
 	get_tree().root.add_child(battleScene.instantiate())
+
+
+func _on_audio_stream_player_2d_finished() -> void:
+	$AudioStreamPlayer2D.play()

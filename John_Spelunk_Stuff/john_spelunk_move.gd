@@ -1,5 +1,6 @@
 extends CharacterBody2D
 class_name Player
+@onready var john_sprite: AnimatedSprite2D = $John_sprite
 
 @export var SPEED = 200.0
 @export var JUMP_VELOCITY = -330.0
@@ -31,9 +32,9 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 
 	if Input.is_action_just_pressed("moveLeft"):
-		scale.x = -1
+		$John_sprite.flip_h = true
 	if Input.is_action_just_pressed("moveRight"):
-		scale.x = 1
+		$John_sprite.flip_h = false
 	
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
@@ -52,4 +53,4 @@ func _on_test_encounter_body_entered(body: Node2D) -> void:
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body is Player:
-		position.y -= 1200
+		position.y -= 1900
